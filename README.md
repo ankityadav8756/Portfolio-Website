@@ -1,16 +1,111 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website designed to showcase my skills, projects, education, experience, and contact information.
 
-Currently, two official plugins are available:
+The portfolio provides an overview of my technical background and projects while providing an easy way for recruiters and visitors to connect with me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 About the Project
 
-## React Compiler
+This Personal Portfolio Website is developed to create an online professional presence and showcase my journey as a developer.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website includes dedicated sections for:
 
-## Expanding the ESLint configuration
+- About Me
+- Skills
+- Projects
+- Education
+- Experience
+- Resume
+- Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website is designed with a clean and responsive user interface so that it works across desktop, tablet, and mobile devices.
+---
+
+## ✨ Features
+
+### 👨‍💻 About Me
+
+Provides an introduction and brief information about my background, interests, and development journey.
+
+### 🛠️ Skills
+
+Displays my technical skills and technologies that I have worked with.
+
+### 🚀 Projects
+
+Showcases my development projects with:
+
+- Project description
+- Technologies used
+- Project features
+- GitHub repository
+- Live demo
+
+### 🎓 Education
+
+Displays my educational background and academic information.
+
+### 💼 Experience
+
+Contains information about my internships, work experience, or relevant technical experience.
+
+### 📄 Resume
+
+Provides an option to view or download my resume.
+
+### 📬 Contact
+
+Allows visitors and recruiters to get in touch with me through the provided contact information.
+
+### 📱 Responsive Design
+
+The website is responsive and optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+> Remove any technology from this list that is not actually used in your project.
+
+---
+
+## 📂 Project Structure
+
+Personal-Portfolio/
+│
+├── public/
+│   ├── images/
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Home/
+│   │   ├── About/
+│   │   ├── Skills/
+│   │   ├── Projects/
+│   │   ├── Education/
+│   │   ├── Experience/
+│   │   └── Contact/
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── index.html
+├── package.json
+└── README.md
